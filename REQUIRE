@@ -1,0 +1,13 @@
+@unix
+@linux
+julia-0.4
+julia-0.5.0-dev
+ArgParse
+Debug
+DebuggingUtilities
+HTTPClient
+HttpCommon
+JSON
+LibGit2
+Requests
+TimerOutputs
