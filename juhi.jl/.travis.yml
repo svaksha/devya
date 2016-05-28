@@ -1,0 +1,23 @@
+# Documentation: http://docs.travis-ci.com/user/languages/julia/
+
+language: julia
+os:
+    - linux
+julia:
+    - release
+    - stable
+notifications:
+    email: false
+
+# uncomment these to override the default test script
+script:
+    - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
+    - julia --check-bounds=yes -e 'Pkg.clone(pwd()); Pkg.build("juhi"); Pkg.test("juhi"; coverage=true)'
+    - julia -e 'Pkg.add("juhi"); Pkg.add("AxisArrays"); Pkg.add("DistributedArrays")'
+    - julia -e 'versioninfo(); Pkg.init(); run(`ln -s $(pwd()) $(Pkg.dir("juhi"))`); Pkg.pin("juhi"); Pkg.resolve()'
+    - julia -e 'println("success!")'
+
+after_success:
+    - julia -e 'cd(Pkg.dir("juhi")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
+
+

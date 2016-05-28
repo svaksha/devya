@@ -1,0 +1,52 @@
+\include{preamble}
+\begin{document}
+\pagenumbering{roman}
+
+\begin{titlepage}
+	\centering
+	\title{}
+	\author{}
+	\date{}
+	\titlepic{}
+\end{titlepage}
+\maketitle
+\thispagestyle{empty}
+~
+\include{empty.tex}
+%Formalities
+%\input{formalities/titleleaf.tex}
+~
+\newpage
+\include{empty.tex}
+~
+\thispagestyle{empty}
+\include{empty.tex}
+%\input{formalities/preface.tex}
+
+%TOC
+\tableofcontents
+\newpage
+
+%Body
+\pagenumbering{english}
+\pagestyle{plain}
+%\input{introduction/introduction.tex}
+%\input{system_specification/system_specification.tex}
+%\input{design/design.tex}
+%\input{implementation/implementation.tex}
+%\input{test/test.tex}
+%\input{experiments/experiments.tex}
+%\input{discussion/discussion.tex}
+%\input{conclusion/conclusion.tex}
+
+%Literature
+\bibliographystyle{plain}
+\bibliography{literature.bib}
+\vfill\clearpage
+
+%Appendix
+\appendix
+\pagenumbering{english}%
+\renewcommand*{\thepage}{\thechapter\english{page}}
+
+\end{document}
