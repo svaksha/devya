@@ -1,6 +1,8 @@
-# devya
+# DEVYA
 
-Development sandbox and random WIP code ... Don't use!
+Development sandbox and random WIP code snippets that I find useful.
+
+__Note:__ Don't use these without testing if it works!
 
 ----
 
