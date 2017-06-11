@@ -11,7 +11,7 @@ using Images
 using ImageView
 
 function pratima()
-    pix = imread("chinstrap_penguins_antarctica.jpg")
+    pix = imread("/home/jn/Pictures/IMG-20170709-WA0001.jpg")
 
 # The basic command to view the image is display. The optional pixelspacing
 # input tells display that this image has a fixed aspect ratio, and that this
@@ -41,7 +41,7 @@ if (!isinteractive())
     wait(c)
 end
 
-##
+
 ##function greyscale2Float()
 ##    """
 ##    Converting the greyscale image into a floating type. Shades of gray are
