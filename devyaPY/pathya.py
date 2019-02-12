@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 ############################ METADATA ##########################################
-#1.PROGRAM   : findpath.py
+#1.PROGRAM   : pathya.py
 #2.COPYRIGHT©: SVAKSHA, 2016-Present.
-#3.AUTHOR(s) : SVAKSHA, http://svaksha.com/pages/Bio
+#3.AUTHOR(s) : SVAKSHA, http://svaksha.com/pages/BIO
 #4.LICENSE   : GNU AGPLv3 subject to meeting all the terms in the LICENSE file.
 #5.TECHNICAL : Small snippets to find the path of files in a directory.
 ###₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹₹

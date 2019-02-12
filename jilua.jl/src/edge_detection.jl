@@ -11,7 +11,7 @@ using Images
 using ImageView
 
 function pratima()
-    pix = imread("/home/jn/Pictures/IMG-20170709-WA0001.jpg")
+    pix = imread("/home/jn/DAT/IMG-20170709-WA0001.jpg")
 
 # The basic command to view the image is display. The optional pixelspacing
 # input tells display that this image has a fixed aspect ratio, and that this

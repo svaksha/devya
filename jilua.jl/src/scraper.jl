@@ -4,7 +4,7 @@ using TimerOutputs
 using Debug
 using DebuggingUtilities
 
-module Scrapejuhijl
+module ScrapeJiluajl
 
 function scrape_md(filename)
 @debug

@@ -1,11 +1,11 @@
 ################################################################################
 # FILE      : install.jl
-# DESC.     : An installation file for the juhi Lib.
-# AUTHOR    : SVAKSHA, http://svaksha.com/pages/Bio
-# SOURCE    : http://gitlab.com/svaksha/juhi.jl
+# DESC.     : An installation file for the jilua.jl
+# AUTHOR    : SVAKSHA, http://svaksha.com/pages/BIO
+# SOURCE    : http://gitlab.com/svaksha/jilua.jl
 # COPYRIGHT©: 2016-Now SVAKSHA, All Rights Reserved.
 # LICENSE   : GNU AGPLv3 and subject to meeting all the terms in the LICENSE
-#             file: https://gitlab.com/svaksha/juhi.jl/blob/master/LICENSE.md
+#             file: https://gitlab.com/svaksha/jilua.jl/blob/master/LICENSE.md
 # DATES     : Created:2016apr08 - Updated:2016apr09
 ################################################################################
 #
@@ -22,7 +22,7 @@ Pkg.add("TimerOutputs")
 # juhi is not in METADATA as yet, so clone it
 #-------------------------------------------------------------------------------
 try 
-    Pkg.clone("https://gitlab.com/svaksha/juhi.jl.git")
+    Pkg.clone("https://gitlab.com/svaksha/jilua.jl.git")
 catch
 end
 

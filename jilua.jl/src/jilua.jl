@@ -1,12 +1,12 @@
 ################################################################################
-# FILE      : juhi.jl
+# FILE      : jilua.jl
 # DESC.     : My sandbox, DontUse.
-# AUTHOR    : SVAKSHA, http://svaksha.com/pages/Bio
-# SOURCE    : http://github.com/svaksha/juhi.jl
+# AUTHOR    : SVAKSHA, http://svaksha.com/pages/BIO
+# SOURCE    : http://github.com/svaksha/devya/jilua.jl
 # COPYRIGHT©: 2016-Now SVAKSHA, All Rights Reserved.
 # LICENSE   : GNU AGPLv3 and subject to meeting all the terms in the LICENSE
-#             file: https://gitlab.com/svaksha/juhi.jl/blob/master/LICENSE.md
-# DATE      : 2016apr12-2016apr15
+#             file: https://gitlab.com/svaksha/devya/jilua.jl/blob/master/LICENSE.md
+# DATE      : 2016apr12-2018aug26
 ################################################################################
 #
 push!(LOAD_PATH, pwd())

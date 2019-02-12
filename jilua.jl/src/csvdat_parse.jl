@@ -4,7 +4,7 @@
 # Include the Copyright notice and this permission notice in all copies.
 ################################################################################
 #
-# USAGE: DownLoad data (CSV files) 
+# USAGE: DownLoad data (CSV files)
 
 using Base
 using DataFrames
@@ -23,5 +23,3 @@ function read_csvdata()
   close(a)
   close(b)
 end
-
-

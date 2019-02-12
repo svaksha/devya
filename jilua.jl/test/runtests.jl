@@ -1,5 +1,4 @@
 using Base.Test
-#using juhi
 
 include("test_util.jl")
 import Base: AnyDict
