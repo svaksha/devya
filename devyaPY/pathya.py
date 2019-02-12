@@ -18,7 +18,6 @@ import subprocess
 from subprocess import *
 from pathlib import Path
 
-
 homedir = os.path.expanduser('~')
 oscwd = os.getcwd()
 print(homedir, oscwd)

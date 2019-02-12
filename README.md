@@ -1,6 +1,6 @@
 # DEVYA
 
-Development sandbox of scripts, interesting statistics, jupyter notebooks and other WIP errata I worked with is stored in this single repo. 
+Development sandbox of scripts, jupyter notebooks and other errata collection when I experiment with libraries, interesting statistics & visualization exercises on topics of interest. 
 
 ----
 
